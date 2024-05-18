@@ -6,17 +6,17 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "JOY-BOT",
+  "BOTNAME": "𝗠𝗜𝗭𝗔𝗡- 𝗕𝗢𝗧 😏",
   "PREFIX": "/",
   "OPERATOR": [
-    "100065050393649",
-    "100092456114947"
+    "100093103000532",
+    ""
   ],
   "ADMINBOT": [
-    "100065050393649",
-    "100092456114947"
+    "100093103000532",
+    ""
   ],
-  "OWNER": ["100000959749712"], 
+  "OWNER": ["100093103000532"], 
   "APPROVED": [],
   "disabledcmds": [],
   "disabledevents": [],
