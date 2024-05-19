@@ -1,16 +1,19 @@
 const fs = require("fs");
-module.exports.config = {
+module.exports= {
+   config:(
  name: "👺",
     version: "1.0.1",
- hasPermssion: 0,
- credits: " Mijan", 
- description: "hihihihi",
- commandCategory: "no prefix",
+        prefix: false,
+ permssion: 0,
+ credits: "nayan", 
+ description: "Fun",
+ category: "no prefix",
  usages: "👺",
-    cooldowns: 5, 
-};
+        cooldowns: 5, 
+},
 
-module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
+
+handleEvent = function({ api, event, client, __GLOBAL }) {
  var { threadID, messageID } = event;
  if (event.body.indexOf("👿")==0  event.body.indexOf("👺")==0  event.body.indexOf("😡")==0 || 
 event.body.indexOf("😠")==0   event.body.indexOf("🤬")==0   event.body.indexOf("😈")==0 ||  
@@ -26,4 +29,4 @@ event.body.indexOf("😾")==0) {
   start: function({ nayan }) {
 
   }
-  }
+}
