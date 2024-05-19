@@ -3,7 +3,7 @@ module.exports.config = {
  name: "👺",
     version: "1.0.1",
  hasPermssion: 0,
- credits: " Alvi", 
+ credits: " Mijan", 
  description: "hihihihi",
  commandCategory: "no prefix",
  usages: "👺",
@@ -20,9 +20,10 @@ event.body.indexOf("😾")==0) {
     attachment: fs.createReadStream(__dirname + /noprefix/Rag.mp3)
    }
    api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🤣", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😹", event.messageID, (err) => {}, true)
   }
  }
- module.exports.run = function({ api, event, client, __GLOBAL }) {
+  start: function({ nayan }) {
 
-  
+  }
+  }
