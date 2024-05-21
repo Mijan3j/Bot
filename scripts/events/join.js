@@ -102,7 +102,7 @@ https://www.facebook.com/profile.php?id=100093103000532
       var id = [];
       for (let o = 0; o < event.logMessageData.addedParticipants.length; o++) {
         let pathImg = __dirname + `/Nayan/join/mijan.png`;
-        let pathAva = __dirname + `/Nayan/join/avt.png`;
+        let pathAva = __dirname + `/Nayan/join/mijan.png`;
         let avtAnime = (await axios.get(encodeURI(
           `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
         var ok = [
