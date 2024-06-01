@@ -18,7 +18,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf("😍")==0 || body.indexOf("lojja")==0 || body.indexOf("uff")==0 || body.indexOf("iss")==0) {
 		var msg = {
-				body: "Rag tomar putki diye dibo  😚🥀",
+				body: "ও্ঁলে্ঁ বা্ঁবু্ঁ ত্যা্ঁহ্ঁ ল্ঁজ্যা্ঁ পা্ঁই্ঁছো্ঁ-!🙈",
 				attachment: fs.createReadStream(__dirname + `/Nayan/lojja.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
