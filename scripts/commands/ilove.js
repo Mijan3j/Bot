@@ -13,7 +13,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("I love you")==0 || (event.body.indexOf("i love you")==0 || (event.body.indexOf("I love u")==0 || (event.body.indexOf("I love you")==0)))) {
+	if (event.body.indexOf("বট i love you")==0 || (event.body.indexOf("bot i love you")==0 || (event.body.indexOf("botI love u")==0 || (event.body.indexOf("bot I love you")==0)))) {
 		var msg = {
 				body: "Hmm... বস 𝗠𝗜𝗭𝗔𝗡 তোমাকে ভালোবাসে😇😻 :))"
     }
