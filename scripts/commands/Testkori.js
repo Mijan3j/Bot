@@ -1,12 +1,13 @@
-const fs = global.nodemodule["fs-extra"];
+const fs = require("fs");
 module.exports.config = {
   name: "goibot",
-  version: "1.0.1",
-  hasPermssion: 0,
-  credits: "noyon",
-  description: "goibot",
-  commandCategory: "Noprefix",
-  usages: "noprefix",
+  version: "2.0.0",
+  permission: 0,
+  credits: "nayan",
+  description: "",
+  prefix: false,
+  category: "user",
+  usages: "goibot",
   cooldowns: 5,
 };
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
