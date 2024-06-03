@@ -1,13 +1,13 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "mijan🐸",
+  name: "goibot",
   version: "2.0.0",
   permission: 0,
   credits: "nayan",
   description: "",
   prefix: false,
   category: "user",
-  usages: "mijan🐸",
+  usages: "goibot",
   cooldowns: 5,
 };
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
